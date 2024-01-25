@@ -43,11 +43,52 @@ ___
 MATCH p=(:Advanced)-[:Next]->(a)
 RETURN p AS path
 ```
-
-
-
+___
+**Background Knowledge**
 ```
-function test() {
-  console.log("This code will have a copy button to the right of it");
-}
+MATCH p=(:Background_Knowledge)-[:Next]->(a)
+RETURN p AS path
 ```
+___
+**Guidelines**
+```
+MATCH p=(:Guidelines)-[:Next]->(a)
+RETURN p AS path
+```
+___
+**Material Selection Guide**
+```
+MATCH p=(:Material_Selection_Guide)-[:Next]->(a)
+RETURN p AS path
+```
+___
+**Product Profile Guide**
+```
+MATCH p=(:Product_Profile_Guide)-[:Next]->(a)
+RETURN p AS path
+```
+___
+**Die Design Guide**
+```
+MATCH p=(:Die_Design_Guide)-[:Next]->(a)
+RETURN p AS path
+```
+___
+**Forward**
+```
+MATCH p=(:Forward)-[:Next]->(a)
+RETURN p AS path
+```
+___
+**Improve Die Design**
+```
+MATCH p=(:Improve_Die_Design)-[:Next]->(a)
+RETURN p AS path
+```
+
+
+
+
+
+
+
