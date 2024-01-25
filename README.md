@@ -15,6 +15,15 @@ This instruction will introduce the main functions of KG and explain in detail h
 
 
 
+## Functions
+### Flowchart
+![Flowchart](https://github.com/limulusoma/limulusoma.github.io/assets/127602400/d3b78eb8-edfa-4914-8a5a-1229dc7a6f03)
+
+
+
+
+
+
 ```
 function test() {
   console.log("This code will have a copy button to the right of it");
