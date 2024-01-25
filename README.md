@@ -22,24 +22,11 @@ For those new to Neo4j, starting with an embedded flowchart in the KG is an exce
 ### Flowchart cheat sheet
 This cheat sheet includes various Neo4j query commands. Copy and paste these into the query box and hit 'Run' to explore specific nodes and their next levels within a flowchart.
 <img width="965" alt="query box" src="https://github.com/limulusoma/limulusoma.github.io/assets/127602400/f8e1712f-300b-444d-9c2e-7b304a2c968b">
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Node | Query commands 
---- | --- 
-`start` | ```
-         |MATCH p=(:Start)-[:Next]->(a)  RETURN p AS path
-         |```
-
+**Start***
+```
+MATCH p=(:Start)-[:Next]->(a)
+RETURN p AS path
+```
 
 
 
