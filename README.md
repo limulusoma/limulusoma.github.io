@@ -16,13 +16,16 @@ This instruction will introduce the main functions of KG and explain in detail h
 
 
 ## Functions
+
 ### Flowchart
 For those new to Neo4j, starting with an embedded flowchart in the KG is an excellent way to begin. Beginners can initially familiarize themselves with the software through this flowchart and then progressively move towards more flexible usage as they gain confidence.
 ![Flowchart](https://github.com/limulusoma/limulusoma.github.io/assets/127602400/d3b78eb8-edfa-4914-8a5a-1229dc7a6f03)
+
 ### Flowchart cheat sheet
 This cheat sheet includes various Neo4j query commands. Copy and paste these into the query box and hit 'Run' to explore specific nodes and their next levels within a flowchart.
 <img width="965" alt="query box" src="https://github.com/limulusoma/limulusoma.github.io/assets/127602400/f8e1712f-300b-444d-9c2e-7b304a2c968b">
-**Start***
+
+**Start**
 ```
 MATCH p=(:Start)-[:Next]->(a)
 RETURN p AS path
