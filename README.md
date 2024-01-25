@@ -25,13 +25,24 @@ For those new to Neo4j, starting with an embedded flowchart in the KG is an exce
 This cheat sheet includes various Neo4j query commands. Copy and paste these into the query box and hit 'Run' to explore specific nodes and their next levels within a flowchart.
 <img width="965" alt="query box" src="https://github.com/limulusoma/limulusoma.github.io/assets/127602400/f8e1712f-300b-444d-9c2e-7b304a2c968b">
 
+___
 **Start**
 ```
 MATCH p=(:Start)-[:Next]->(a)
 RETURN p AS path
 ```
-
-
+___
+**Advanced**
+```
+MATCH p=(:Advanced)-[:Next]->(a)
+RETURN p AS path
+```
+___
+**Beginner**
+```
+MATCH p=(:Advanced)-[:Next]->(a)
+RETURN p AS path
+```
 
 
 
