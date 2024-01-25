@@ -37,8 +37,8 @@ raw Markdown line up prettily. You can also use inline Markdown.
 Node | Query commands 
 --- | --- 
 `start` | ```
-MATCH p=(:Start)-[:Next]->(a)  RETURN p AS path
-```
+         |MATCH p=(:Start)-[:Next]->(a)  RETURN p AS path
+         |```
 
 
 
