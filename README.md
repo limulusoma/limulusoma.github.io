@@ -18,7 +18,7 @@ This instruction will introduce the main functions of KG and explain in detail h
 
 
 ## Flowchart
-For those new to Neo4j, starting with an embedded flowchart in the KG is an excellent way to begin. Beginners can initially familiarize themselves with the software through this flowchart and then progressively move towards more flexible usage as they gain confidence.
+Beginning with an embedded flowchart within a knowledge graph (KG) can serve as an excellent starting point for newcomers. Beginners can initially familiarize themselves with the software through this flowchart and then progressively move towards more flexible usage as they gain confidence.
 ![Flowchart](https://github.com/limulusoma/limulusoma.github.io/assets/127602400/d3b78eb8-edfa-4914-8a5a-1229dc7a6f03)
 
 ### Flowchart cheat sheet
