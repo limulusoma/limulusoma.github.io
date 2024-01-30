@@ -19,7 +19,7 @@ This instruction will introduce the main functions of KG and explain in detail h
 
 ## Flowchart
 Beginning with an embedded flowchart within a knowledge graph (KG) can serve as an excellent starting point for newcomers. Beginners can initially familiarize themselves with the software through this flowchart and then progressively move towards more flexible usage as they gain confidence.
-![Flowchart](https://github.com/limulusoma/limulusoma.github.io/assets/127602400/d3b78eb8-edfa-4914-8a5a-1229dc7a6f03)
+![visualisation (3)](https://github.com/limulusoma/limulusoma.github.io/assets/127602400/f87f1342-d0b2-4602-9870-10ce64fab9f4)
 
 ### Flowchart cheat sheet
 This cheat sheet includes various Neo4j query commands. Copy and paste these into the query box and hit 'Run' to explore specific nodes and their next levels within a flowchart.
@@ -58,19 +58,19 @@ RETURN p AS path
 ___
 **Material Selection Guide**
 ```
-MATCH p=(:Material_Selection_Guide)-[:Next]->(a)
+MATCH p=(:Order1_Material_Selection_Guide)-[:Next]->(a)
 RETURN p AS path
 ```
 ___
 **Product Profile Guide**
 ```
-MATCH p=(:Product_Profile_Guide)-[:Next]->(a)
+MATCH p=(:Order2_Product_Profile_Guide)-[:Next]->(a)
 RETURN p AS path
 ```
 ___
 **Die Design Guide**
 ```
-MATCH p=(:Die_Design_Guide)-[:Next]->(a)
+MATCH p=(:Order3_Die_Design_Guide)-[:Next]->(a)
 RETURN p AS path
 ```
 ___
